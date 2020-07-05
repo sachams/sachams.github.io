@@ -17,7 +17,7 @@ The recommendation is that you do it this way (a little every day) rather than w
 ## Low glucose suspend
 The low glucose suspend works pretty well if your glucose level is on a gentle-ish downward trend. If if is dropping rapidly (eg, you have a bit too much insulin in your system and you do exercise), then you definitely need to take some glucose on board. I haven't had any problems with big rebounds.
 
-At night I set the basal rate so I have a slight downward trend, and let the low glucose suspend kick in. This keeps me pretty much around 4.5mmol/l for most of the night.
+At night I set the basal rate so I have a slight downward trend, and let the low glucose suspend kick in. This keeps me pretty much around 4.5mmol/l for most of the night. In the image above the red vertical bars are when the low-glucose suspend kicks in.
 
 A couple of times I have woken up feeling pretty lousy, but when I checked my glucose level was between 4-4.5mmol/l all night. I did a manual test, and found it was mis-calibrated, and was actually 3mmol/l. So the T-Slim did a great job at keeping me in an extended hypo for 8 hours! Without the low glucose suspend this wouldn't happen: you'd drop below 4mmol/l, the CGM would alarm, you'd have some sweets and be back up to 8mmol/l or so. So calibration before going to bed is important IMHO.
 
