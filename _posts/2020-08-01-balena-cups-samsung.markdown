@@ -12,14 +12,14 @@ This is my ageing Samsung M2026W printer. I quite like it - it was cheap to buy 
 A friend mentioned that he had recently got CUPS set up on his RPi and so as I love messing around with RPis and don't like throwing away things if I can help it, this could be the perfect solution.
 
 ## Balena-CUPS
-The first Google led me to (balena-cups)[https://www.balena.io/blog/wifi-enable-usb-printers-with-a-raspberry-pi-and-share-it-over-your-network/]. I set this up on my RPI 3b and it looked very promising indeed! The Balena setup was very slick - a single click on the "Deploy with Balena" button worked really well.
+The first Google led me to [balena-cups](https://www.balena.io/blog/wifi-enable-usb-printers-with-a-raspberry-pi-and-share-it-over-your-network/). I set this up on my RPI 3b and it looked very promising indeed! The Balena setup was very slick - a single click on the "Deploy with Balena" button worked really well.
 
 The AirPrint-compatible server appeared, but unfortunately my venerable Samsung wasn't one of the supported printers. After trying pretty much every generic driver, the best I could find was a generic one that printed fairly well but always followed up with an error page. 6/10 for that one.
 
 ## Splix
-A bit more Googling took me to (Splix)[https://openprinting.org/printer/Samsung/Samsung-M2022W] but unfortunately the PPD file was empty, despite the discount-code-like "Works perfectly" comment.
+A bit more Googling took me to [Splix](https://openprinting.org/printer/Samsung/Samsung-M2022W) but unfortunately the PPD file was empty, despite the discount-code-like "Works perfectly" comment.
 
-But a bit more searching led me to (this thread)[https://www.reddit.com/r/linuxadmin/comments/cvt23c/print_via_rpi_cups_with_samsung_m2026_very_cheap/]. I ssh'ed into my Balena container and installed it....and it worked perfectly!
+But a bit more searching led me to [this thread](https://www.reddit.com/r/linuxadmin/comments/cvt23c/print_via_rpi_cups_with_samsung_m2026_very_cheap/). I ssh'ed into my Balena container and installed it....and it worked perfectly!
 
 ## Containerising it
 There were a few manual steps involved, so I thought I'd fork the Balena-CUPS repo and add in Samsung support - here it is:
