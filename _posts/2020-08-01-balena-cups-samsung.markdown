@@ -3,8 +3,8 @@ layout: post
 title: Turning a Raspberry Pi into a Samsung AirPrint server
 date: 2020-08-01 00:00:00 +0000
 description: 
-img: airprint.png 
-fig-caption: AirPrint image
+img: samsung.png 
+fig-caption: Photograph of a printer
 tags: [Raspberry Pi]
 ---
 This is my ageing Samsung M2026W printer. I quite like it - it was cheap to buy and is cheap to run. There's loads of things I really hate about it too: it's meant to be AirPrint compatible, but the WiFi setup and drivers are so flaky that it drops out of Wifi all the time, assuming you have managed to get it set up on WiFi in the first place. And the latest Mac OSX drivers from Samsung (now HP) don't support WiFi setup at all.
