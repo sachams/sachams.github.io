@@ -24,4 +24,4 @@ But a bit more searching led me to [this thread](https://www.reddit.com/r/linuxa
 ## Containerising it
 There were a few manual steps involved, so I thought I'd fork the Balena-CUPS repo and add in Samsung support - here it is:
 
-https://github.com/sachams/balena-cups
+[https://github.com/sachams/balena-cups](https://github.com/sachams/balena-cups)
