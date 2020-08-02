@@ -25,3 +25,5 @@ But a bit more searching led me to [this thread](https://www.reddit.com/r/linuxa
 There were a few manual steps involved, so I thought I'd fork the Balena-CUPS repo and add in Samsung support - here it is:
 
 [https://github.com/sachams/balena-cups](https://github.com/sachams/balena-cups)
+
+UPDATE: my PR got merged back into the original repo, so if you deploy via the "Deploy with Balena" button in the [original Balena post](https://www.balena.io/blog/wifi-enable-usb-printers-with-a-raspberry-pi-and-share-it-over-your-network/) you'll get Samsung printer compatability!
