@@ -18,9 +18,10 @@ I started using Google Sheets to analyse the data with pivot tables, but it got 
 
 The number of days under each regimen is as follows:
 
-Manual (since 1998 really, but in this analysis): 141
-Basal IQ: 396
-Control IQ: 93
+| Regimen | Days of data |
+| Manual | (since 1998 really, but in this analysis) 141 |
+| Basal IQ | 396 |
+| Control IQ | 93 |
 
 There are different ways of using Control IQ: you can set sleep mode only when you are sleeping, or you can set sleep mode all the time. Sleep mode tries to maintain a tighter glucose range which it does by changing basal rate only (ie, it doesn't bolus), and the theroy is that there are fewer variables when you are sleeping, so aiming for tighter control should be possible without increasing the number of lows.
 
@@ -29,17 +30,17 @@ For this experiment I used sleep mode all the time. In the future I'll try using
 ## Results
 The average glucose level got better under Basal IQ, but actually got a little worse under Control IQ. This can be explained by the qay I used to use Basal IQ: I would intentionally set my basal insulin a little too high, so my glucose level would always be trending downwards and I would let the Low Glucose Suspend kick in to stop my glucose level from dropping too much. The end result was that my glucose level was lower than under Contol IQ, but the time I spent low was greater under Basal IQ than when manual or under Control IQ.
 
-![Average glucose level]({{ site.url }}/assets/average_glucose_level.png)
+![Average glucose level]({{ site.url }}/assets/img/average_glucose_level.png)
 
 The time in range steadily got better with Basal IQ and then Control IQ is much better, with glucose levels being in range 94% of the time.
 
-![Time in range]({{ site.url }}/assets/time_in_range.png)
+![Time in range]({{ site.url }}/assets/img/time_in_range.png)
 
 The average glucose level and time in range have important impacts on my overall health, but one of the most noticeable impacts has been on the quality of sleep. I looked at the number of nights where my glucose level was out of range, meaning that I would have been woken up. I quickly found that under Control IQ it was so good at fixing out-of-range glucose levels that I turned off glucose level alerts at night: even if it was slightly high or low, it always fixed it and I woke up with good glucose readings. For instance, I would happily go to bed with glucose levels above 10mmol/l and it would correct during the night without over-compensating. 
 
 And so I went from being woken up approximately 18 nights in every month when on my old manual pump, to 13 nights in every month under Basal IQ, to pretty much zero nights under Control IQ. I say "pretty much", because there are a couple of occasions I still get woken up, like if I lie on a brand new sensor you get false low readings ("Compression lows") or if I get a low insulin alert. 
 
-![Woken at night]({{ site.url }}/assets/woken_at_night.png)
+![Woken at night]({{ site.url }}/assets/img/woken_at_night.png)
 
 ## Conclusion
 I really like the Control IQ software - the time in range is great, and the effect on quality of sleep is amazing. I had pretty much forgotten what it was like to get a good night's sleep most of the time!
@@ -49,7 +50,7 @@ I'm still getting a few high periods, so my next tasks are to try and get my ave
 
 
 
---- sql
+~~~ sql
 with enriched as (
     select 
         timestamp as timestamp,
@@ -113,4 +114,4 @@ select regimen,
        countif(woken="Yes")*100/count(woken)
 from woken_summary 
 group by regimen
----
+~~~
