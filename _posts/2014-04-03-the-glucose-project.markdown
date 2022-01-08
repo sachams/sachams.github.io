@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Beautiful Science at The British Library
-date: 2014-03-22 00:00:00 +0000
+title: The Glucose Project
+date: 2014-04-03 00:00:00 +0000
 description: 
 img: siggraph_currents_still2-15402.jpeg
 tags: [Data visualisation]
