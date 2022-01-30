@@ -7,7 +7,7 @@ img: time_in_range.png
 fig-caption: # Add figcaption (optional)
 tags: [Diabetes]
 ---
-When I first got my [Tandem T-Slim insulin pump]({% post_url 2020-07-04-t-slim-impressions %}) it only had Basal IQ mode - in this mode it suspends insulin if your glucose level goes too low, but if it is too high, it doesn't increase insulin - you're on your own. In October last year I got a software upgrade to Control IQ mode. In this mode, if your glucose level goes too high, it increases your insulin and is a fully closed-loop system.
+How good is Control IQ compared to Basal IQ? When I first got my [Tandem T-Slim insulin pump]({% post_url 2020-07-04-t-slim-impressions %}) it only had Basal IQ mode - in this mode it suspends insulin if your glucose level goes too low, but if it is too high, it doesn't increase insulin - you're on your own. In October last year I got a software upgrade to Control IQ mode. In this mode, if your glucose level goes too high, it increases your insulin and is a fully closed-loop system.
 
 Now that I have been using it for a few months in Control IQ mode, I thought I'd analyse my glucose data and see what effect the Control IQ software has had.
 
